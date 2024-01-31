@@ -1,0 +1,19 @@
+.styled-form {
+    text-align: center;
+  }
+  
+  .rounded-button {
+    border-radius: 15px;
+    background-color: #657e8e;
+    color: #ede2e2; 
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  #inputNumber {
+    border-radius: 10px;
+    padding: 8px;
+    margin: 8px 0;
+  }
+  

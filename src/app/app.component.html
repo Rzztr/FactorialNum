@@ -1,0 +1,13 @@
+<div id="form" class="styled-form">
+  <label for="inputNumber">Put a number (ONLY POSITIVE NUMBERS, PLEASE)</label><br>
+  <input type="number" id="inputNumber" [(ngModel)]="inputNumber"><br>
+  <button class="rounded-button" (click)="calculateFactorial()">Calculate Factorial</button>
+  <div *ngIf="factorialResult !== undefined">
+    <p>The factorial of {{ inputNumber }} is: {{ factorialResult }}</p>
+  </div>
+  <div *ngIf="factorialResult === undefined">
+    <p>I told you, only positive numbers.</p>
+  </div>
+</div>
+<router-outlet></router-outlet>
+
